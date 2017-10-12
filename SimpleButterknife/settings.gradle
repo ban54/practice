@@ -1,0 +1,1 @@
+include ':app', ':viewbind', ':viewbind_annotation', ':viewbind_compiler'
