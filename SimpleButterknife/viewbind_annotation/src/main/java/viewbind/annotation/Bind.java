@@ -9,7 +9,7 @@ import java.lang.annotation.Target;
  * Created by LIHAO on 2017/9/29.
  */
 @Target(ElementType.FIELD)
-@Retention(RetentionPolicy.CLASS)
+@Retention(RetentionPolicy.SOURCE)
 public @interface Bind {
     int value();
 }
